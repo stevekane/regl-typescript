@@ -1,0 +1,21 @@
+{
+  "name": "regl-ts",
+  "version": "1.0.0",
+  "description": "Demo of how to setup a regl project with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "watch": "budo src/index.ts -d --live -- -p tsify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "budo": "^11.2.0",
+    "tsify": "^4.0.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "regl": "^1.3.1"
+  }
+}
